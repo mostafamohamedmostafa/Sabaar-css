@@ -1,3 +1,4 @@
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -99,7 +100,7 @@ html {
 
 img {
     vertical-align: middle;
-    border-style: none;
+   
  
 }
 
@@ -108,3 +109,6 @@ img {
     margin: auto auto;
 }
 
+h4{
+    color: yellow;
+}

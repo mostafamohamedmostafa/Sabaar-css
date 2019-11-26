@@ -1,0 +1,110 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 10px;
+    direction: ltr;
+    line-height: 1.15;
+}
+
+.header {
+    position: fixed;
+    padding: .4rem 0;
+    z-index: 2;
+    background: white;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+}
+
+.header .logo-container-v2, .header .navbar-brand {
+    display: none;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.menu-desktop {
+    display: block;
+}
+/*
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+@media (min-width: 992px)
+.container {
+    max-width: 960px;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
+*/
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header .header--main--nav {
+    align-items: center;
+    margin: 0;
+    padding: 1rem 0;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.header .header--main--nav li {
+    margin: 0 2rem;
+}
+.header .logo-container-v2, .header .navbar-brand {
+    display: none;
+}
+
+.nav.header--main--nav li.active a {
+    color: #ff4d00;
+}
+.header .header--main--nav li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.header .logo-container img {
+    max-width: 150px;
+
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+ 
+}
+
+/*Why using last child and not class*/
+.header .header--main--nav li:last-child {
+    margin: auto auto;
+}
+

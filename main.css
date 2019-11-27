@@ -84,12 +84,12 @@
     }
     
     img {
-    align-items: left;       
+    align-items:center;       
      
     }
     
     .cover {
-        margin-top: 15rem;
+        margin-top: 10rem;
         text-align: center;
         align-content: center;
         align-items: center;
@@ -101,8 +101,8 @@
     .cover-description {
         display: flex;
         flex-direction: column;
-        margin: 2.7rem 0;
-        padding: 1.5rem 3rem;
+        margin: 1rem 0;
+        padding: rem 3rem;
         width: 100%;
     }
 
@@ -110,9 +110,9 @@
         width: 495px;
         height: 366px;
         right: 10px;
-        bottom: -100rem;
+        text-align: center;
      
-        }
+     }
     
     .cover-description h4 {
         font-size: 5rem;
@@ -137,7 +137,7 @@
     .links-in-cover a{
         display: flex;
         flex-direction: row;
-        padding: 1.5rem 3rem;
+        padding: 1rem 1rem;
         text-align: center;
         margin: 3rem auto;
 
@@ -148,28 +148,77 @@
         border-radius: 24px;
         text-decoration: none;
         color: #fff;
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-weight: 700;
         z-index: 1;
         max-width: 50%;
-
-   
-}
+        justify-content: center;
+  
+    }
     
     .btn-sabbar-empty {
         border-radius: 24px;
         text-decoration: none;
         color: #ff4d00;
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-weight: 700;
         border: .1rem solid #ff4d00;
         max-width: 50%;
-        margin: 3rem auto;
-
-  
+        margin: auto auto;
+        justify-content: center;
+    }
+    .Parteners-description h3{
+        display: block;
+        font-weight: 600;
+        margin: 3rem 0;
+        font-size: 2rem;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.87);
     }
     
-  }
+    .parteners-img-container{
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 768px;
+        min-height: 1px;
+        flex-direction: row;
+    }
+    
+    .companies-images {
+        max-width: 80%;
+        max-height: auto;
+        justify-content: center;
+       padding: 10%;
+       margin: auto;    
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
   
 
   

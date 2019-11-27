@@ -193,7 +193,45 @@
        margin: auto;    
     }
 
+
+    .bussiness .container{
+        padding: 7rem 7re;
+        position: relative;
+    }
     
+    .bussiness h4{
+        font-weight: 700;
+        font-size: 2rem;
+        margin: 2rem 0;
+        max-width: 100%;
+        padding-left: 15%;
+     
+    }
+     
+    .bussiness-p{
+        font-weight: 400;
+        font-size: 1.3rem;
+        margin: 2rem 0;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    
+    }
+    
+    
+    .bussiness-img{
+        display: block;
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .sabbar-postion{
+        position: absolute;
+        right: 0rem;
+        bottom: -130rem;
+        width: auto;
+       
+    }
 
 
 

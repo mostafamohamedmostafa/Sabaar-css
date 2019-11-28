@@ -26,7 +26,7 @@
     }
     
     .header {
-        position: fixed;
+        position: relative;
         z-index: 0;
         background: white;
         width: 100%;
@@ -193,10 +193,15 @@
        margin: auto;    
     }
 
+    .bussiness  {
+     
+        background-color: #f2f3f4;
+    }
 
     .bussiness .container{
         padding: 7rem 7re;
         position: relative;
+        background-color: blueviolet;
     }
     
     .bussiness h4{
@@ -227,20 +232,42 @@
     
     .sabbar-postion{
         position: absolute;
-        right: 0rem;
-        bottom: -130rem;
+        right: 3rem;
+        bottom: -157rem;
         width: auto;
        
     }
 
+    .bussiness .btn-custom-size {
+        display: block;
+        max-width: 19rem;
+        margin: 3rem 11rem;
+        padding: 1.2rem;
+        text-align: center;
+    }    
 
 
 
+    .job-seekers  h4{
+        font-weight: 700;
+        font-size: 2rem;
+        margin: 2rem 0;
+        max-width: 100%;
+        padding-left: 15%;
+     
+    }
+     
 
 
-
-
-
+    .job-seeker-p{
+        font-weight: 400;
+        font-size: 1.3rem;
+        margin: 2rem 0;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    
+    }
 
 
 

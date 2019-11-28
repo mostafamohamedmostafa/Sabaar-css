@@ -4,8 +4,7 @@
 }
 
 
-@media only screen and (min-width:450px)  and (max-width: 1250px)
- {
+ 
 
     *, *::before, *::after {
         box-sizing: border-box;
@@ -331,7 +330,6 @@ footer .footer-head h4{
 
 
 
-}
-  
+ 
 
   

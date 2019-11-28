@@ -575,11 +575,12 @@ footer .footer-head h4{
    }
 
    .bussiness .btn-custom-size {
-       display: block;
-       max-width: 19rem;
-       margin: 3rem 11rem;
-       padding: 1.2rem;
-       text-align: center;
+        display: block;
+        max-width: 11rem;
+    margin: 0rem 5rem;
+    padding: 0.2rem;
+    text-align: center;
+    width: 100%;
    }    
 
 
@@ -605,12 +606,13 @@ footer .footer-head h4{
    
    }
 
-   .job-seekers .btn-custom-size {
+   .job-seekers  .btn-custom-size-empty {
        display: block;
-       max-width: 19rem;
-       margin: 3rem 11rem;
+       max-width: 10rem;
+       
        padding: 0.2rem;
        text-align: center;
+       width: 100%;
    }    
 
 
@@ -646,7 +648,7 @@ footer .footer-head h4{
 
 footer  {
 
- 
+ text-align: left;
 
 }
 

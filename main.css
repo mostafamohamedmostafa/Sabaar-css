@@ -4,7 +4,7 @@
 }
 
 
-@media only screen and (min-width:250px)  and (max-width: 768px)
+@media only screen and (min-width:550px)  and (max-width: 768px)
  {
 
     *, *::before, *::after {
@@ -333,5 +333,338 @@ footer .footer-head h4{
 
 }
   
+
+@media only screen and (min-width:200px)  and (max-width: 549px)
+{
+
+   *, *::before, *::after {
+       box-sizing: border-box;
+   }
+
+   body{
+       max-width: 549px;
+       width: 100%;
+       font-family: 'Cairo', sans-serif;
+
+   }
+   .container {
+       width: 100%;
+       max-width: 549px;
+       padding-right: 15px;
+       padding-left: 15px;
+       margin-right: auto;
+       margin-left: auto;
+   }
+   
+   .header {
+       position: relative;
+       z-index: 0;
+       background: white;
+       width: 100%;
+       max-width: 549px;
+        top: 0;
+       overflow: hidden;
+   }
+   
+   .header .logo-container-v2, .header .navbar-brand {
+       display: none;
+   }
+   
+   .navbar-brand {
+       font-size: 1rem;
+   }
+   
+   .header .header--main--nav {
+   
+       align-items: center;
+       margin: 0;
+       padding: 0rem 0;
+   }
+
+   .nav {
+       display: flex;
+       flex-direction: column;
+       align-content: center;
+       align-items: center;
+       width: 100%;
+       max-width: 549px;
+       justify-content: center;
+       padding-left: 0;
+       margin-bottom: 0;
+       list-style: none;
+   }
+   
+   .header .header--main--nav li {
+       margin: 0 0rem;
+   }
+
+   .nav.header--main--nav li.active a {
+       color: #ff4d00;
+   }
+   .header .header--main--nav li a {
+       text-decoration: none;
+       color: #333;
+       font-size: 1rem;
+       font-weight: 400;
+   }
+   
+   .header .logo-container img {
+       max-width: 96px;
+       text-align: left;
+       justify-items: left;
+   
+   }
+   
+   img {
+   align-items:center;       
+    
+   }
+   
+   .cover {
+       margin-top:0.1rem;
+       text-align: center;
+       align-content: center;
+       align-items: center;
+       justify-content: center;
+       justify-items: center;
+   }
+
+
+   .cover-description {
+       display: flex;
+       flex-direction: column;
+       margin: 1rem 0;
+       padding: rem 3rem;
+       width: 100%;
+   }
+
+   .cover-img img{        
+       width: 256px;
+       height: 256px;
+        text-align: center;
+    
+    }
+   
+   .cover-description h4 {
+       font-size: 3rem;
+       font-weight: 700;
+       text-align: center;
+       margin-bottom: 2.7rem;
+       color: rgba(0, 0, 0, 0.87);
+       line-height: 3rem;
+     
+   }
+   
+   .cover-description p {
+       font-size: 1rem;
+       color: #8c96a8;
+       margin-top: 0;
+       margin-bottom: 2.7rem;
+       font-weight: 700;
+       
+   }
+   
+   
+   .links-in-cover a{
+       display: flex;
+       flex-direction: row;
+       padding: 0.1rem 1rem;
+       text-align: center;
+       margin: 1rem auto;
+
+   }
+   
+   .btn-sabbar {
+       background: #ff4d00;
+       border-radius: 24px;
+       text-decoration: none;
+       color: #fff;
+       font-size: 1rem;
+       font-weight: 700;
+       z-index: 1;
+       max-width: 50%;
+       justify-content: center;
+       -webkit-border-radius: 24px;
+       -moz-border-radius: 24px;
+       -ms-border-radius: 24px;
+       -o-border-radius: 24px;
+}
+   
+   .btn-sabbar-empty {
+       border-radius: 24px;
+       text-decoration: none;
+       color: #ff4d00;
+       font-size: 1rem;
+       font-weight: 700;
+       border: .1rem solid #ff4d00;
+       max-width: 50%;
+       margin: auto auto;
+       justify-content: center;
+   }
+   .Parteners-description h3{
+       display: block;
+       font-weight: 600;
+       margin: 2.5rem 0;
+       font-size: 1.5rem;
+       text-align: center;
+       color: rgba(0, 0, 0, 0.87);
+   }
+   
+   .parteners-img-container{
+       display:flex;
+       flex-wrap: wrap;
+       width: 100%;
+       max-width: 549px;
+       min-height: 1px;
+       flex-direction: row;
+   }
+   
+   .companies-images {
+       max-width: 70%;
+       max-height: auto;
+       justify-content: center;
+      padding: 10%;
+      margin: auto;    
+   }
+
+   .bussiness  {
+    
+       background-color: #f2f3f4;
+   }
+
+   .bussiness .container{
+       padding: 7rem 7rem;
+       position: relative;
+        
+   }
+   
+   .bussiness h4{
+       font-weight: 700;
+       font-size: 1.5rem;
+       margin: 2rem 0;
+       max-width: 100%;
+     
+    
+   }
+    
+   .bussiness-p{
+       font-weight: 400;
+       font-size: 1rem;
+       margin: 2rem 0;
+     display: flex;
+     flex-direction: column;
+     
+   
+   }
+   
+   
+   .bussiness-images{
+       display: block;
+       height: 277px;
+       width: 283px;
+  
+       text-align: center;
+   }
+   
+   .sabbar-postion{
+       position: absolute;
+       right: 3rem;
+       bottom: -122rem;
+       width: auto;
+      
+   }
+
+   .bussiness .btn-custom-size {
+       display: block;
+       max-width: 19rem;
+       margin: 3rem 11rem;
+       padding: 1.2rem;
+       text-align: center;
+   }    
+
+
+
+   .job-seekers  h4{
+       font-weight: 700;
+       font-size: 1rem;
+       margin: 2rem 0;
+       max-width: 100%;
+      
+    
+   }
+    
+
+
+   .job-seeker-p{
+       font-weight: 400;
+       font-size: 1.3rem;
+       margin: 1rem;
+       display: flex;
+       flex-direction: column;
+
+   
+   }
+
+   .job-seekers .btn-custom-size {
+       display: block;
+       max-width: 19rem;
+       margin: 3rem 11rem;
+       padding: 0.2rem;
+       text-align: center;
+   }    
+
+
+   .job-seekers .iphone-pic img{
+       display: block;
+       height: auto;
+       max-width: 25rem;
+        width: 100%;
+   }
+
+
+
+
+
+   .news-section  h4{
+       font-weight: 700;
+       font-size: 1rem;
+       margin: 2rem 0;
+       max-width: 100%;
+        
+    
+   }
+    
+.latest-news{
+   display: block;
+ }
+
+.latest-news  a{
+   text-decoration: none;
+   color: grey;
+   padding: 0.1rem;
+}
+
+footer  {
+
+ 
+
+}
+
+footer a, li{
+   text-decoration: none;
+   list-style: none;
+   color: rgba(0, 0, 0, 0.712);
+   padding: 0;
+   margin: 0;
+}
+
+footer .footer-head h4{
+   font-weight: 500;
+}
+
+
+
+}
+ 
 
   

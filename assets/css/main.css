@@ -345,8 +345,10 @@ footer .footer-head h4{
        max-width: 549px;
        width: 100%;
        font-family: 'Cairo', sans-serif;
-
+       margin: 0;
+       padding: 0;
    }
+
    .container {
        width: 100%;
        max-width: 549px;
@@ -364,10 +366,6 @@ footer .footer-head h4{
        max-width: 549px;
         top: 0;
        overflow: hidden;
-   }
-   
-   .header .logo-container-v2, .header .navbar-brand {
-       display: none;
    }
    
    .navbar-brand {
@@ -667,6 +665,102 @@ footer .footer-head h4{
 
 
 }
- 
 
-  
+.header {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .13);
+    height: 90px;
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar-brand a img {
+    width: 150px;
+    padding: 15px 15px 0 15px;
+}
+
+.button_container {
+    position: fixed;
+    top: 2rem;
+    right: 2.7rem;
+    height: 27px;
+    width: 35px;
+}
+
+.button_container .top {
+    background: #fb4e0e;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    top: 0;
+}
+
+
+.button_container .middle {
+    background: #fb4e0e;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    top: 10px;
+}
+
+
+.button_container .bottom {
+    background: #fb4e0e;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    top: 20px;
+}
+
+.overlaymenu {
+    display: none;
+    transition-delay: .7s;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+.header--main--nav {
+    position: fixed;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+.header--main--nav li {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.header--main--nav li:nth-child(1)
+{
+    margin-top: 10px;
+}
+
+.parteners-img-container {
+    padding: 20px;
+}
+
+.parteners-img {
+    width: 50%;
+    margin-bottom: 10px;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 20px;
+}
+
+.companies-imgs {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    filter: grayscale(100%);
+    transition: all 200ms ease-in-out;
+}

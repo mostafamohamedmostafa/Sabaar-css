@@ -5,22 +5,63 @@
     <title>Sabbar Copy</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/main.js"></script>
 </head>
 
 <header class="header">
-    <div class="navbar-brand clear-fix">
-        <a href="https://sabbar.com/en/"></a>
+    <div class="navbar-brand">
+        <a href="https://sabbar.com/en/">
+            <img src="http://sabbar.com/wp-content/uploads/2019/11/sabbar-logo-en.svg" alt="Sabbar Logo">
+        </a>
     </div>
 
-    <div class="container menu-desktop">
-        <ul id="menu-main-menu" class="nav header--main--nav">
+    <div class="mobilemenu">
+        <div class="button_container" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+        <div class="overlaymenu" id="overlay">
+            <nav class="overlay-menu">
+                <ul id="menu-main-menu-1" class="nav header--main--nav">
+                        <li class="active menu-item menu-home">
+                            <a href="https://sabbar.com/en/">Home</a>
+                        </li>
+            
+                        <li class="menu-item menu-bussinesses">
+                            <a href="https://sabbar.com/en/retailers/">Bussiness</a>
+                        </li>
+            
+                        <li class="menu-item menu-job-seekers">
+                            <a href="https://sabbar.com/en/job-seekers/">Job Seekers</a>
+                        </li>
+            
+                        <li class="menu-item menu-about">
+                            <a href="https://sabbar.com/en/about">About</a>
+                        </li>
+            
+            
+                        <li class="menu-item menu-contact-us">
+                            <a href="https://sabbar.com/en/contact-us">Contact Us</a>
+                        </li>
+            
+                        <li class="menu-item menu-arabic">
+                            <a href="https://sabbar.com/ar">عربي</a>
+                        </li>
+            
+                        <li class="menu-item menu-sign-up-your-business">
+                            <a href="https://sabbar.com/en/start-with-sabbar/">Sign up your Business</a>
+                        </li>
+                </ul>        
+            </nav>
+        </div>
+    </div>
 
-            <li class="logo-container logo-dark"><a href="https://sabbar.com/en/">
-                    <img src="http://sabbar.com/wp-content/uploads/2019/11/sabbar-logo-en.svg" alt="Sabbar Logo">
-                </a>
-            </li>
+    <div class="container menu-desktop" style="display: none;">
+        <ul id="menu-main-menu" class="nav header--main--nav">
 
             <li class="logo-container-v2 logo-dark">
                 <a href="https://sabbar.com/en/"></a>
@@ -91,7 +132,7 @@
                     <div class="parteners-img-container">
 
                         <div class="parteners-img">
-                            <img class="img-fluid companies-images"
+                            <img class="img-fluid companies-imgs"
                                 src="https://sabbar.com/wp-content/uploads/2019/11/hamburgini.png" />
                         </div>
 
@@ -106,14 +147,16 @@
                         </div>
 
                         <div class="parteners-img">
+                                <img class="img-fluid companies-imgs"
+                                    src="https://sabbar.com/wp-content/uploads/2019/11/almehbaj.jpg" />
+                            </div>
+
+                        <div class="parteners-img">
                             <img class="img-fluid companies-imgs"
                                 src="https://sabbar.com/wp-content/uploads/2019/11/COMPANY_LOGO_SURE-Global-Tech_.png" />
                         </div>
 
-                        <div class="parteners-img">
-                            <img class="img-fluid companies-imgs"
-                                src="https://sabbar.com/wp-content/uploads/2019/11/almehbaj.jpg" />
-                        </div>
+                        
 
                     </div>
 

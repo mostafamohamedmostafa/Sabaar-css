@@ -290,12 +290,43 @@
 
 
 
+    .news-section  h4{
+        font-weight: 700;
+        font-size: 2rem;
+        margin: 2rem 0;
+        max-width: 100%;
+        padding-left: 15%;
+     
+    }
+     
+.latest-news{
+    display: block;
+    padding-left: 15%;
+}
 
+.latest-news  a{
+    text-decoration: none;
+    color: grey;
+    padding: 0.1rem;
+}
 
+footer  {
+    padding-left: 15%;
+  
 
+}
 
+footer a, li{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.712);
+    padding: 0;
+    margin: 0;
+}
 
-
+footer .footer-head h4{
+    font-weight: 500;
+}
 
 }
   
